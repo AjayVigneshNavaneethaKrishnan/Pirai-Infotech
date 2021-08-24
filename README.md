@@ -46,20 +46,6 @@ year = input("Enter the year to check:")
 for i in range(n):
     if(list_app[i][1]) == year:
         print(list_app[i])
-
-#Sort the two fields in increasing order
-#Display the author name to check
-    aut = input("Enter the author name to check:")
-    for i in range(n):
-        if(list_app[i][1]) == aut:
-            print(list_app[i])
-            
-#Display the publishing year
-year = input("Enter the year to check:")
-for i in range(n):
-    if(list_app[i][1]) == year:
-        print(list_app[i])
-      
 else:
     print("Enter valid number for Number of Application")
 
